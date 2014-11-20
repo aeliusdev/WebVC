@@ -1,0 +1,14 @@
+{
+  "name": "normalize",
+  "_cacheHeaders": {
+    "ETag": "\"458eea1ea3d5d57b8d35a7453763e681e4ffe383\"",
+    "Content-Length": "7798",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:458eea1ea",
+  "main": "index.css",
+  "_source": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+  "_target": "*",
+  "_originalSource": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+  "_direct": true
+}
