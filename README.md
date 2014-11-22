@@ -52,7 +52,7 @@ Use <code>WebVC.orientation()</code> to detect the current orientation.
 
 <pre>alert( WebVC.orientation() );</pre>
 
-<h3>Detecting Mobile Orientation</h3>
+<h3>Detecting Mobile Orientation & Changes in Orientation</h3>
 
 Use <code>WebVC.mobile_orientation()</code> to detect the current orientation.
 
