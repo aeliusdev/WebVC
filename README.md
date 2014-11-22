@@ -21,3 +21,58 @@ A JavaScript class for checking browser &amp; mobile compatibility.
 </ul>
 
 <h2>Usage</h2>
+
+<h3>Browser Information</h3>
+
+The <code>WebVC.browser();</code> method allows you get current browser information.
+
+<ul>
+  <li>Browser Name: <code>WebVC.browser().name</code></li>
+  <li>Browser Major Version: <code>WebVC.browser().version</code></li>
+  <li>Browser Current Version: <code>WebVC.browser().version_accurate</code></li>
+  <li>Browser Application Name: <code>WebVC.browser().app_name</code></li>
+</ul>
+
+<h3>Detecting a Mobile Browser</h3>
+
+Use <code>WebVC.is_mobile()</code> to detect mobile browsers.
+
+<pre>
+if ( WebVC.is_mobile() ) 
+{
+  
+  alert( "Mobile Browser Present!" );
+
+}
+</pre>
+
+<h3>Detecting Orientation</h3>
+
+Use <code>WebVC.orientation()</code> to detect the current orientation.
+
+<pre>alert( WebVC.orientation() );</pre>
+
+<h3>Detecting Mobile Orientation</h3>
+
+Use <code>WebVC.mobile_orientation()</code> to detect the current orientation.
+
+<pre>alert( WebVC.mobile_orientation() );</pre>
+
+Use <code>WebVC.mobile_orientation_change()</code> to detect a change in orientation.
+
+Parameters: function_name - The name of the callback function when a change of orientation has been detected.
+
+<pre>
+
+function alertCurrentOrientation () 
+{
+  
+  alert( WebVC.mobile_orientation() );
+
+}
+
+WebVC.mobile_orientation_change( alertCurrentOrientation );
+
+</pre>
+
+Thanks for reading!
