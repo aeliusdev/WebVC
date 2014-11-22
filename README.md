@@ -58,7 +58,7 @@ Use <code>WebVC.mobile_orientation()</code> to detect the current orientation.
 
 <pre>alert( WebVC.mobile_orientation() );</pre>
 
-Use <code>WebVC.mobile_orientation_change()</code> to detect a change in orientation.
+Use <code>WebVC.mobile_orientation_change( function_name )</code> to detect a change in orientation.
 
 Parameters: function_name - The name of the callback function when a change of orientation has been detected.
 
